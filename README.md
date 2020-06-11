@@ -1,7 +1,7 @@
 # About
 Exact Pattern Matching using [Burrows-Wheeler Transformation](https://en.wikipedia.org/wiki/Burrows%E2%80%93Wheeler_transform) and [Ferragina-Manzini index](https://en.wikipedia.org/wiki/FM-index).
 
-# Primer
+## Primer
 
 Burrows–Wheeler transform  rearranges character string into the runs of similar characters and can be reversed using only the position of the first character.
 
@@ -11,7 +11,7 @@ It can be used to efficiently find the number of occurrences of a pattern within
 
 The query time, as well as the required storage space, has a sublinear complexity with respect to the size of the input data.
 
-# Installation
+## Installation
 
 ```bash
 $ git clone https://github.com/salmoor/burrows-wheeler-transform.git
@@ -19,7 +19,7 @@ $ cd burrows-wheeler-transform
 $ make
 ```
 
-# How to use
+## How to use
 
 Execution of the program is performed in two steps.
 
